@@ -33,7 +33,7 @@ def audio2text(text, audio_dict):
 
     return data
 
-pickle_path = DATA_PATH + '/meld_data_0424.pkl'
+pickle_path = DATA_PATH + '/meld_data_0610.pkl'
 train_csv = DATA_PATH + '/train_sent_emo.csv'
 dev_csv = DATA_PATH + '/dev_sent_emo.csv'
 test_csv = DATA_PATH + '/test_sent_emo.csv'

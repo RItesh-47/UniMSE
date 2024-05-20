@@ -39,7 +39,7 @@ dev_csv = DATA_PATH + '/dev_sent_emo.csv'
 test_csv = DATA_PATH + '/test_sent_emo.csv'
 
 emotion_features = load_pickle(pickle_path)
-train_emotion_f, dev_emotion_f, test_emotion_f = emotion_features[0], emotion_features[1], emotion_features[2]
+train_emotion_f, dev_emotion_f, test_emotion_f = emotion_features['audio'][0], emotion_features['audio'][1],emotion_features['audio'][2]
 
 train_text = pd.read_csv(train_csv)
 dev_text = pd.read_csv(dev_csv)
